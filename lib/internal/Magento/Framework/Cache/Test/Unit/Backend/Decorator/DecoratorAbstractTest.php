@@ -54,7 +54,7 @@ class DecoratorAbstractTest extends \PHPUnit\Framework\TestCase
     }
 
     /**
-     * @param array options
+     * @param array $options options
      * @expectedException \Zend_Cache_Exception
      * @dataProvider constructorExceptionDataProvider
      */
